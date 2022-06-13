@@ -1,0 +1,28 @@
+---
+apiVersion: imgpkg.carvel.dev/v1alpha1
+images:
+- annotations:
+    kbld.carvel.dev/id: gcr.io/knative-releases/knative.dev/eventing/cmd/broker/filter@sha256:7cd5307c20c6a5dc236f49357d11dee686283ff6f10432416117dc0859a9fdaa
+  image: gcr.io/knative-releases/knative.dev/eventing/cmd/broker/filter@sha256:7cd5307c20c6a5dc236f49357d11dee686283ff6f10432416117dc0859a9fdaa
+- annotations:
+    kbld.carvel.dev/id: gcr.io/knative-releases/knative.dev/eventing/cmd/broker/ingress@sha256:983cc9788d5359eb631160fb363ba3581a7166e9ee06f01eed76443009359d64
+  image: gcr.io/knative-releases/knative.dev/eventing/cmd/broker/ingress@sha256:983cc9788d5359eb631160fb363ba3581a7166e9ee06f01eed76443009359d64
+- annotations:
+    kbld.carvel.dev/id: gcr.io/knative-releases/knative.dev/eventing/cmd/controller@sha256:bda9d91ae790d91742092cbaee5897500a9e0053bc002de41299cb3e1f59ef39
+  image: gcr.io/knative-releases/knative.dev/eventing/cmd/controller@sha256:bda9d91ae790d91742092cbaee5897500a9e0053bc002de41299cb3e1f59ef39
+- annotations:
+    kbld.carvel.dev/id: gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_controller@sha256:26acc27a0b97aedeaf1f4e1d8f0e15b994238c5c737fb193d30d2755152a5366
+  image: gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_controller@sha256:26acc27a0b97aedeaf1f4e1d8f0e15b994238c5c737fb193d30d2755152a5366
+- annotations:
+    kbld.carvel.dev/id: gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_dispatcher@sha256:9f8bac7b731c5ebf077800b1ebad5094d8075c410000a24d1aecbf248069e581
+  image: gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_dispatcher@sha256:9f8bac7b731c5ebf077800b1ebad5094d8075c410000a24d1aecbf248069e581
+- annotations:
+    kbld.carvel.dev/id: gcr.io/knative-releases/knative.dev/eventing/cmd/mtchannel_broker@sha256:b215f17ca96eb00f0d13b031959f525f5c104133e84976393046229bb2ce7076
+  image: gcr.io/knative-releases/knative.dev/eventing/cmd/mtchannel_broker@sha256:b215f17ca96eb00f0d13b031959f525f5c104133e84976393046229bb2ce7076
+- annotations:
+    kbld.carvel.dev/id: gcr.io/knative-releases/knative.dev/eventing/cmd/mtping@sha256:ee103e51aae58a775f2db48fe348b719ab776d8a82e2379dd1ea7c52cc78f848
+  image: gcr.io/knative-releases/knative.dev/eventing/cmd/mtping@sha256:ee103e51aae58a775f2db48fe348b719ab776d8a82e2379dd1ea7c52cc78f848
+- annotations:
+    kbld.carvel.dev/id: gcr.io/knative-releases/knative.dev/eventing/cmd/webhook@sha256:14404717f8f7ed01f808d3576f6b396b2c7be0478f0724cd0f40b416c8fb057c
+  image: gcr.io/knative-releases/knative.dev/eventing/cmd/webhook@sha256:14404717f8f7ed01f808d3576f6b396b2c7be0478f0724cd0f40b416c8fb057c
+kind: ImagesLock
