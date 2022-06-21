@@ -6,7 +6,7 @@
 apiVersion: eventing.knative.dev/v1
 kind: Broker
 metadata:
-  name: #@ data.values.default_broker.name
+  name: default
   namespace: #@ data.values.default_broker.namespace
 
 #@ end

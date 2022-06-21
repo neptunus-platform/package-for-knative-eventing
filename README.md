@@ -12,14 +12,12 @@ The Knative Eventing package has the following configurable properties.
 
 | Value | Required/Optional | Description |
 |-------|-------------------|-------------|
-| `default_broker.enabled` | Optional | Enable an in-memory default broker. |
-| `default_broker.name` | Optional | The name of the in-memory default broker. |
+| `default_broker.enabled` | Optional | Enable the in-memory default broker. |
 | `default_broker.namespace` | Optional | The namespace where to create the in-memory default broker. |
 
 ```yaml
 default_broker:
   enabled: false
-  name: default
   namespace: default
 ```
 
