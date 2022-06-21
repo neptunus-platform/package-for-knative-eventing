@@ -1,3 +1,7 @@
 #@data/values
 ---
 
+default_broker:
+  enabled: false
+  name: default
+  namespace: default
